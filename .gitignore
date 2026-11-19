@@ -1,0 +1,20 @@
+# 빌드 결과물 및 배포 압축 파일 (GitHub Releases에 별도 첨부 권장)
+dist/
+*.zip
+
+# 테스트 폴더 제외
+tests/
+
+# 개인 기획 및 아이디어 메모 파일
+프로젝트_단위_폴더_관리_아이디어.md
+향후_기능_개선_아이디어.md
+
+# Inno Setup 다운로드 설치 프로그램 및 컴파일러 바이너리
+installer/innosetup-*.exe
+installer/compiler/
+
+# OS 및 에디터 임시 파일
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
